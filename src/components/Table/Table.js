@@ -53,7 +53,7 @@ const Table = () => {
           <tbody>
             {currentRecords.map((project, index) => (
               <tr key={project?.["s.no"]}>
-                <td>{project?.["s.no"]+1}</td>
+                <td>{project?.["s.no"]}</td>
                 <td className={style.percentage}>{project?.["percentage.funded"]}%</td>
                 <td>${project?.["amt.pledged"]?.toLocaleString()}</td>
               </tr>
