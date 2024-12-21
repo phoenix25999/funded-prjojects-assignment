@@ -1,0 +1,46 @@
+.tableContainer {
+    width: 80%;
+
+    .loading {
+      text-align: center;
+      font-size: 20px;
+    }
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    text-align: left;
+
+    tr {
+        border-bottom: 1px solid #e2e8f0;
+
+        &:hover {
+            background: #f7fafc;
+        }
+    }
+  
+    th,
+    td {
+      padding: 10px;
+    }
+  
+    th {
+      background-color: #9b87f5;
+      color: #fff;
+      font-weight: 800;
+    }
+  
+    td {
+      color: #424755;
+
+      &.percentage {
+        color: #57b785;
+      }
+    }
+  }
